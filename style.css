@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(to left, #88FF88, #7777FF);
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+input {
+    height: 2.5rem;
+    width: 50%;
+    font-size: 1.5rem;
+    margin: 5px 0;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 0 10px; 
+}
+
+button {
+    border-radius: 30px;
+    margin: 5px;
+    padding: 15px 20px;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    background: linear-gradient(to left, #88FF88, #7777FF);
+}
+
+button:hover {
+   filter: brightness(80%);
+}
+
+.navbar-box {
+    margin: 2%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+#navbar-title {
+    font-size: 2.3rem;
+}
+
+#burger-menu {
+    height: 80px;
+}
+
+.form-box {
+    width: 60vw;
+    margin: 100px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.input-box {
+    margin: 30px 0;
+}
