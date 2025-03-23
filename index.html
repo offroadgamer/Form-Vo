@@ -12,24 +12,33 @@
         <h1 id="navbar-title">Form Vo</h1>
         <img src="img/burger-menu.png" id="burger-menu">
     </div>
-    <div class="form-box">
+    <!--
+    <div class="form-box" method="post" action="index.php">
         <h2>Skriv inn:</h2>
         <div class="input-box">
             <h4>Fornavn:</h4>
-            <input id="fornavn">
+            <input id="fornavn" name="firstname">
         </div>
         <div class="input-box">
             <h4>Etternavn:</h4>
-            <input id="etternavn">
+            <input id="etternavn" name="lastname">
         </div>
         <div class="input-box">
             <h4>E-postadresse:</h4>
-            <input id="epost">
+            <input id="epost" name="email">
         </div>
         <div class="btn-div">
-            <button onclick="submit()">Send inn</button>
+            <button type="submit" value="submit">Send inn</button>
             <button onclick="reset()">Tilbakestill</button>
-        </div>
+            
+        </div> 
     </div>
+    -->
+    <form method="post" action="connect.php">
+        Fornavn: <input name="firstname"><br>
+        Etternavn: <input name="lastname"><br>
+        Epost: <input name="email">
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
